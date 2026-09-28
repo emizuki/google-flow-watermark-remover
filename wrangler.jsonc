@@ -1,0 +1,7 @@
+// Serves web/ as static assets on Cloudflare Workers. Deploy: ./web/build.sh && npx wrangler deploy
+{
+  "name": "google-flow-watermark-remover",
+  "compatibility_date": "2026-09-26",
+  "assets": { "directory": "./web" },
+  "routes": [{ "pattern": "google-flow-watermark-remover.emizuki.com", "custom_domain": true }]
+}

@@ -1,0 +1,6 @@
+# Built by web/build.sh
+/web/remover.wasm
+/web/wasm_exec.js
+
+# Local wrangler state (holds account details)
+/.wrangler/
